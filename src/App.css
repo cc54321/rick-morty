@@ -1,4 +1,47 @@
-.App {
+#body{
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+
+  /* border: 5px dashed black; */
+
+
+}
+
+#container{
+  /* border: 5px dashed black; */
+  margin-left: 300px;
+  margin-right: 300px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+#title{
+  display: flex;
+  justify-content: center;
+  /* border: 5px dashed black; */
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#sub-title{
+  text-align: center;
+  text-decoration-line: underline;
+}
+#card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 5px dashed black; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +78,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
